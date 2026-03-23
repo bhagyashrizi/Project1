@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FurniCraft</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background: #f8f9fa;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #1e1e2f;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #f4a261;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #232526, #414345);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.hero h2 {
+    font-size: 45px;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #f4a261;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #e76f51;
+}
+
+/* Products */
+.products {
+    padding: 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #f1f3f5;
+    width: 260px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('images/hero.jpg') center/cover no-repeat;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* About */
+.about {
+    padding: 60px;
+    text-align: center;
+    background: #e9ecef;
+}
+
+/* Contact */
+.contact {
+    padding: 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+/* Footer */
+footer {
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>FurniCraft</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>Design Your Dream Home</h2>
+        <p>Elegant & Modern Furniture Collection</p>
+        <button>Explore Now</button>
+    </div>
+</section>
+
+<section class="products">
+    <h2>Our Products</h2>
+
+    <div class="product-container">
+
+        <div class="card">
+            <img src="images/sofa.jpg">
+            <h3>Sofa Set</h3>
+            <p>Comfortable and stylish sofa.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/chair.jpg">
+            <h3>Wooden Chair</h3>
+            <p>Minimal and modern design.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/table.jpg">
+            <h3>Dining Table</h3>
+            <p>Perfect for family time.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        We create high-quality furniture with modern designs to make your home beautiful and comfortable.
+    </p>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@furnicraft.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 FurniCraft</p>
+</footer>
+
+</body>
+</html>
